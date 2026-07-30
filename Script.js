@@ -13,7 +13,7 @@ if(name==""){
     alert("Enter Name");
     return;
 }
-
+    
 if(!/^[A-Za-z ]+$/.test(name)){
     alert("Name should contain only letters.");
     return;
